@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm01 : My Homepage</title>
+		<style>
+			html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+			.header {
+				width: 100%;
+				height: 10%;
+				background: rgb(236, 161, 183);
+			}
+			.nav {
+				width: 30%;
+				height: 80%;
+				float: left;
+				background: rgb(175, 174, 231);
+			}
+			.section {
+				width: 70%;
+				height: 80%;
+				float: left;
+				background: rgb(151, 210, 228);
+			}
+			.aside {
+				width: 15%;
+				height: 70%;
+				float: left;
+				background: rgb(228, 133, 231);
+			}
+			.footer {
+				width: 100%;
+				height: 10%;
+				clear: both;
+				background: plum;
+			}
+
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<header class="header">
+			<h1><a href="">Hm01 Homepage</a></h1>
+		</header>
+		
+		<nav class="nav">
+			<ul>
+				<li>
+					<h2>HM01 Info</h2>
+                <ul>
+					<h2>My daily life</h2>
+                      <li>
+                        <a href="hm01_day.html" target="right">hm01 daily life</a> <br />
+                        <!--hmxx_day.html-->
+					  </li>
+					  <h2>My Hoddy</h2>
+                      <li>
+                        <a href="hm01_best3.html" target="right">Best 3 mavie</a> <br />
+                        <!--hmxx_best3_movie.html-->
+                      </li>
+					  <h2>My Club</h2>
+                      <li>
+                        <a href="hm01_club.html" target="right">동호회 모집</a>
+                        <br />
+                        <!--hmxx_best3_country.html-->
+                      </li>
+					  <h2>hm01 Party</h2>
+                      <li>
+                        <a href="hm01_card.html" target="right">X-MAS파티 초대장</a>
+                        <br />
+                        
+                      </li>
+                </ul>
+				</li>
+			</ul>
+		</nav>
+
+		<section class="section" id="main">
+			
+			<article>
+					<iframe
+					src="hm01_info.html"
+					name="right"
+					width="1800"
+					height="1000"
+				  ></iframe>				
+		</section>
+
+		
+		<footer class="footer">
+			<p>
+				hm01 20192557 강서현
+			</p>
+		</footer>
+
+	</body>
+
+</html>
