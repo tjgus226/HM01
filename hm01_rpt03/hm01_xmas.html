@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm01 : CSS3 advanced</title>
+    <style>
+      #song {
+        position: fixed;
+        top: 70px;
+        left: 20px;
+      }
+      #hm01 {
+        position: fixed;
+        top: 680px;
+        left: 500px;
+        padding: 5px;
+        background: rgb(255, 255, 255);
+        color: rgb(77, 25, 59);
+      }
+      #카드 {
+        position: absolute;
+        top: 70px;
+        left: -80px;
+      }
+      #tree {
+        position: fixed;
+        top: 200px;
+        left: 200px;
+      }
+      div {
+        display: inline-block;
+        position: fixed;
+        border: 1px solid lightgray;
+      }
+      div > p {
+        display: inline-block; /* div의 자식 p */
+        position: fixed;
+        height: 20px;
+        width: 15px;
+        background: lightgray;
+      }
+      @keyframes textColorAnimation {
+        0% {
+          color: blue;
+          font-size: 50%;
+        }
+        30% {
+          color: green;
+          font-size: 100%;
+        }
+        100% {
+          color: red;
+          font-size: 50%;
+        }
+      }
+      span {
+        animation-name: textColorAnimation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+    <script></script>
+  </head>
+
+  <body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3><header class="header"><span>Merry Christmas</span></header>
+      <nav class="nav"></nav>
+      <section class="section"></h3>
+    <hr />
+    <img
+      id="카드"
+      src="media/카드 테두리.jpeg"
+      width="1000"
+      height="800"
+      alt="카드 테두리"
+    />
+    <img
+      id="tree"
+      src="media/christmastree.png"
+      width="400"
+      height="500"
+      alt="크리스마스 트리"
+    />
+    <div id="song">
+      <audio src="media/song.mp3" controls autoplay loop>
+        브라우저가 audio 태그를 지원하지 않습니다.
+  </div>
+      </audio>
+    </div>
+    <div id="hm01">
+      <span>hm01 강서현</span>
+    </div>
+    <div>
+      <p style="left: 330px; top: 380px;">
+        M
+      </p>
+      <p style="left: 420px; top: 390px;">
+        E
+      </p>
+      <p style="left: 320px; top: 430px;">
+        R
+      </p>
+      <p style="left: 380px; top: 440px;">
+        R
+      </p>
+      <p style="left: 450px; top: 450px;">
+        Y
+      </p>
+      <p style="left: 300px; top: 480px;">
+        X
+      </p>
+      <p style="left: 360px; top: 490px;">
+        -
+      </p>
+      <p style="left: 400px; top: 500px;">
+        M
+      </p>
+      <p style="left: 450px; top: 510px;">
+        A
+      </p>
+      <p style="left: 490px; top: 520px;">
+        S
+      </p>
+    </div>
+  </body>
+</html>
