@@ -1,5 +1,6 @@
 # HM01 홈페이지
-## 홈페이지 수정사항
+## 홈페이지 수정사항(내용과 방법)
+### html 파일
 - hm01_rpt03.html(메인 홈페이지 / hm01 클릭 시 나의 dithub 홈페이지로 이동 / 메뉴 클릭 시 옆 섹션으로 바로 출력 / Semantic tag의 header, nav 그림자 추가 / footer 제작자 hm01출력)
 - hm01_life.html(나의 일정 출력 / 시간과 활동 표로 작성)
 - hmo1_movie.html(좋아하는 영화 3가지 출력 / 영화 이미지 추가 / location 객체로 웹 사이트 접속 / My Best 구간 datalist 추가)
